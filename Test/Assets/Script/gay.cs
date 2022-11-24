@@ -8,6 +8,8 @@ public class gay : MonoBehaviour
     public float jumpSpeed = 7;
     public float moveSpeed = 5;
 
+    public Transform groundCheck;
+
     Rigidbody2D rb;
     Animator anim;
 
