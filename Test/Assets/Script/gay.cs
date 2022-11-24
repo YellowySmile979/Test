@@ -9,11 +9,14 @@ public class gay : MonoBehaviour
     public float moveSpeed = 5;
 
     Rigidbody2D rb;
+    Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        anim = GetComponent<Animator>();
 
     }
 
